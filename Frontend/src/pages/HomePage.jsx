@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar.jsx"; 
 import api from "../lib/axios.js";
 import toast from "react-hot-toast";
-import NoteCard from "../components/NoteCard.jsx";
-import NotesNotFound from "../components/NotesNotFound.jsx";
+import NoteCard from "../Components/NoteCard.jsx";
+import NotesNotFound from "../Components/NotesNotFound.jsx";
 
 const HomePage = () => {
   const [notes, setNotes] = useState([]);
