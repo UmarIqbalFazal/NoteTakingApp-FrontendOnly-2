@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Navbar from "../components/Navbar.jsx"; 
+import Navbar from "../Components/Navbar.jsx"; 
 import api from "../lib/axios.js";
 import toast from "react-hot-toast";
 import NoteCard from "../components/NoteCard.jsx";
